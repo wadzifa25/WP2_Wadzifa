@@ -1,5 +1,5 @@
 <?php
-class Tugas1 extends CI_Controller
+class tugas1 extends CI_Controller
 {
     public function index()
     {
