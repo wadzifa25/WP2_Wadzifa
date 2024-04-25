@@ -17,12 +17,16 @@
                 <tr>
                     <th>Kode MTK</th>
                     <th>:</th>
-                        <td><input type="text" name="kode" id="kode"></td>
+                        <td><input type="text" name="kode" id="kode" placeholder="Isikan Data">
+                            <div class="invalid-feedback"><?= form_error('kode')?></div>
+                        </td>
                 </tr>
                 <tr>
                     <th>Nama MTK</th>
                     <th>:</th>
-                        <td><input type="text" name="nama" id="nama"></td>
+                    <td><input type="text" name="nama" id="nama" placeholder="Isikan Data">
+                        <div class="invalid-feedback"><?= form_error('nama')?></div>
+                    </td>
                 </tr>
                 <tr>
                     <th>SKS</th>
@@ -34,6 +38,7 @@
                                 <option value="3">3</option>
                                 <option value="4">4</option>
                             </select>
+                            <div class="invalid-feedback"><?= form_error('sks')?></div> 
                         </td>
                 </tr>
                 <tr>

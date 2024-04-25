@@ -20,12 +20,12 @@
             </tr>
             <tr>
                 <th>Nama MTK</th>
-                <td>:</td>
+                <th>:</th>
                     <td><?= $nama; ?></td>
             </tr>
             <tr>
-                <td>SKS</td>
-                <td>:</td>
+                <th>SKS</th>
+                <th>:</th>
                     <td><?= $sks; ?></td>
             </tr>
             <tr>
