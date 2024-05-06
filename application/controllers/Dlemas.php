@@ -15,7 +15,7 @@ class Dlemas extends CI_Controller
 
         $this->form_validation->set_rules('nis', 'NIS', 
             'required|min_length[3]', [
-            'required' => 'NIS Harus diisi',
+            'required' => 'NIS harus diisi',
             'min_lenght' => 'NIS terlalu pendek'
         ]);
 
