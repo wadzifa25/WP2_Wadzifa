@@ -9,8 +9,8 @@ class Dlemas extends CI_Controller
     {
         $this->form_validation->set_rules('nama', 'Nama', 
             'required|min_length[3]', [
-            'required' => 'Nama Siswa harus diisi',
-            'min_lenght' => 'Nama Siswa terlalu pendek'
+            'required' => 'Nama harus diisi',
+            'min_lenght' => 'Nama terlalu pendek'
         ]);
 
         $this->form_validation->set_rules('nis', 'NIS', 

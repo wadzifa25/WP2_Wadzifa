@@ -14,43 +14,43 @@
                 </td>
             </tr>
             <tr>
-                <th>Nama</th>
-                <th>:</th>
+                <td>Nama</td>
+                <td>:</td>
                     <td><?= $nama; ?></td>
             </tr>
             <tr>
-                <th>NIS</th>
-                <th>:</th>
+                <td>NIS</td>
+                <td>:</td>
                     <td><?= $nis; ?></td>
             </tr>
             <tr>
-                <th>Kelas</th>
-                <th>:</th>
+                <td>Kelas</td>
+                <td>:</td>
                     <td><?= $kelas; ?></td>
             </tr>
             <tr>
-                <th>Tanggal Lahir</th>
-                <th>:</th>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
                     <td><?= $tanggal_lahir; ?></td>
             </tr>
             <tr>
-                <th>Tempat Lahir</th>
-                <th>:</th>
+                <td>Tempat Lahir</td>
+                <td>:</td>
                     <td><?= $tempat_lahir; ?></td>
             </tr>
             <tr>
-                <th>Alamat</th>
-                <th>:</th>
+                <td>Alamat</td>
+                <td>:</td>
                     <td><?= $alamat; ?></td>
             </tr>
             <tr>
-                <th>Jenis Kelamin</th>
-                <th>:</th>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
                     <td><?= $jenis_kelamin; ?></td>
             </tr>
             <tr>
-                <th>Agama</th>
-                <th>:</th>
+                <td>Agama</td>
+                <td>:</td>
                     <td><?= $agama; ?></td>
             </tr>
             <tr>

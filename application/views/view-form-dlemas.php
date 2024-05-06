@@ -15,7 +15,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>Nama Siswa</th>
+                    <th>Nama</th>
                     <th>:</th>
                         <td><input type="text" name="nama" id="nama" placeholder="Isikan Data">
                             <div class="unvalid-feedback"><?= form_error('nama')?></div>
