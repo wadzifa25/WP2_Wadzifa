@@ -24,7 +24,6 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <input type="password" class="form-control form-control-user" id="password2" name="password2" placeholder="Ulangi Password">
-                                    101
                                     <?= form_error('password2', '<small class="text-danger pl-3">', '</small>'); ?>
                                 </div>
                             </div>
